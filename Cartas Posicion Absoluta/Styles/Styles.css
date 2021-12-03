@@ -1,6 +1,8 @@
 body{
 	background-color: green;
 }
+
+/* Elementos Cartas */
 .Carta{
 	position: absolute;
 	height: 320px;
@@ -9,6 +11,7 @@ body{
 	background-color: white;
 	border-radius: 8px;
 	top: 100px;
+	font-size: 26px;
 }
 #EsquinaSup{
 	position: absolute;
@@ -21,6 +24,9 @@ body{
 	right: 5px;
 	transform: rotate(180deg);
 }
+/* Elementos Cartas */
+
+/* Comienzo 5 Corazones */
 #Carta1{
 	left: 475px;
 	top: 198px;
@@ -61,6 +67,9 @@ body{
 	left: 110px;
 	transform: rotate(180deg);
 }
+/* Fin 5 Corazones */
+
+/* Comienzo 2 Treboles */
 #Carta2{
 	left: 125px;
 	top: 198px;
@@ -81,6 +90,9 @@ body{
 	left: 80px;
 	transform: rotate(180deg);
 }
+/* Fin 2 Treboles */
+
+/* Comienzo 3 Picas */
 #Carta3{
 	left: 300px;
 	color: black;
@@ -112,6 +124,9 @@ body{
 	left: 100px;
 	transform: rotate(180deg);
 }
+/* Fin 4 Treboles */
+
+/* Comienzo 3 Picas */
 #Carta4{
 	left: 200px;
 	top: 125px;
@@ -119,25 +134,28 @@ body{
 	z-index: 2;
 	transform: rotate(330deg);
 }
-#Carta4>#T1{
+#Carta4>#P1{
 	position: absolute;
 	font-size: 50px;
 	top: 60px;
 	left: 80px;
 }
-#Carta4>#T2{
+#Carta4>#P2{
 	position: absolute;
 	font-size: 50px;
 	top: 120px;
 	left: 80px;
 }
-#Carta4>#T3{
+#Carta4>#P3{
 	position: absolute;
 	font-size: 50px;
 	bottom: 40px;
 	left: 80px;
 	transform: rotate(180deg);
 }
+/* Fin 3 Picas */
+
+/* Comienzo 7 Treboles */
 #Carta5{
 	left: 400px;
 	top: 125px;
@@ -189,3 +207,4 @@ body{
 	left: 100px;
 	transform: rotate(180deg);
 }
+/* Fin 7 Treboles */
